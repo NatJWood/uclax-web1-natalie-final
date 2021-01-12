@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* Components ---------------------------*/
-import Test from './Test.jsx';
+// import Test from './Test.jsx';
 
 const Main = () => {
 
