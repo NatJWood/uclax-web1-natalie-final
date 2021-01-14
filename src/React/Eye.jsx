@@ -16,6 +16,7 @@ const Eye = () => {
         <div>
         <img
             src = { imageSrc }
+            alt = 'An eye opening and closing'
             onMouseOver = { imageOver }
             onMouseOut = { imageOut }
         />

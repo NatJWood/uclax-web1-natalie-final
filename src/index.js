@@ -13,9 +13,9 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import Eye from './React/Eye.jsx';
+import Container from './React/Container.jsx';
 
 /*---------------------------
 | Render to DOM
 ---------------------------*/
-ReactDOM.render(<Eye />, document.getElementById('root'));
+ReactDOM.render(<Container />, document.getElementById('root'));
