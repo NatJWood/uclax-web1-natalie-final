@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Eye = () => {
+const Login = () => {
 
     const [imageSrc, imageSrcUpdate] = useState('/assets/img/close.png');
 
@@ -24,4 +24,4 @@ const Eye = () => {
     )
 }
 
-export default Eye;
+export default Login;
