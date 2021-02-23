@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* components ---------------------------*/
-import Staff from './Staff.jsx';
+import Staff from './Staff/Staff.jsx';
 import Tabbed from './Tabbed/Tabbed.jsx';
 
 const Welcome = () => {

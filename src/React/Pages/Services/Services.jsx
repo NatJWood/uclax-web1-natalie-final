@@ -1,8 +1,8 @@
 import React from 'react';
 
 /* Components ---------------------------*/
-import FilterNav from './FilterNav.jsx';
-import Gallery from './Gallery.jsx';
+import FilterNav from './FilterNav/FilterNav.jsx';
+import Gallery from './Gallery/Gallery.jsx';
 
 const Services = () => {
     return (
