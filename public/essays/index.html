@@ -53,7 +53,15 @@
         <p>HTML images are a fundamental part of the website, and if you removed it the user would be missing information. CSS images are purely aesthetic, and if removed the website might look worse but the user would still get the same information and content from the website.</p>
 
         <h2>What is considered the right size for an image or video asset?</h2>
-        <p>Photo sizing can depend on many factors, such as browser size and screen resolution. You also have to consider load times, in that larger images will take much longer to load. Additionally, you also need to make sure that your photo isn't being sized over 100% because that can cause pixelation and not look good (vector images are different).</p>
+        <p>Photo sizing can depend on many factors, such as browser size and screen resolution. You also have to consider load times, in that larger images will take much longer to load. Additionally, you also need to make sure that your photo isn't being sized over 100% because that can cause pixelation and not look good (vector images are different). For a full browser photo 2500px is good.</p>
+
+        <h2>What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)</h2>
+        <ul>
+            <li>id: can only apply to one element in a page. In CSS it's #id {}.</li>
+            <li>class: can apply to multiple elements in a page. In CSS it's .ID {}</li>
+            <li>tags are in between <> elements and you can use CSS to target every instance on a page.</li>
+        </ul>
+        <p>In the instance with two CSS selectors of the same specificity with opposing instructions, the later one will be applied. Otherwise the most specific selector will be used; id will override class which overrides general tags.</p>
 
     </body>
 </html>
