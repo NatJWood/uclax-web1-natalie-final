@@ -2,19 +2,17 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 /* Components ------------- */
-import Welcome from './Pages/Welcome/Welcome.jsx';
-import Services from './Pages/Services/Services.jsx';
+import Home from './Pages/Welcome/Home.jsx';
+import Works from './Pages/Services/Works.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
-import Login from './Pages/Login/Login.jsx';
 
 const Main = () => {
     return (
         <main>
             <Switch>
-                <Route path ='/services' component = { Services } />
+                <Route path ='/Works' component = { Works } />
                 <Route path ='/contact' component = { Contact } />
-                <Route path = '/login' component = { Login } />
-                <Route path = '/' component = { Welcome } exact />
+                <Route path = '/' component = { Home } exact />
             </Switch>
         </main>
     )

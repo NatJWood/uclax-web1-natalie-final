@@ -18,9 +18,13 @@ export default NavLarge;
 const NavLargeStyled = styled.div`
      
     display: flex;
-    background-color: #002727;
-    padding: 20px;
-    justify-content: center;
+    background-color: #E4FBFF;
+    padding: 20px 5px;
+    justify-content: left;
+
+h1 {
+    justify-content: right;
+}
 
 .Nav {
     display: flex;
@@ -31,21 +35,20 @@ a {
     flex: 1; 
     text-align: center;
     display: block;
-    background: teal;
+    background: #B8B5FF;
     color: white;
     text-decoration: none;
 
-    border-radius: 5px;
+    border-radius: 6px;
 
-    padding: 10px;
-    margin: 0px 5px;
+    padding: 20px;
+    margin: 5px 5px;
 
     &.active {
-        background-color: #004141;
+        background-color: #7868E6;
     }
     &:hover {
-        background-color: #00b6b6;
-        color: #004141;
+        background-color: #160d52;
     }
 }
 

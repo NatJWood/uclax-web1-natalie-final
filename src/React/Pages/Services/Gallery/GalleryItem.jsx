@@ -61,6 +61,10 @@ const GalleryItemStyled = styled.div`
             padding: 5px;
             text-align: right;
         }
+        img {
+            max-width: 200px;
+            max-height: auto;
+        }
     }
 
     .Lightbox {
@@ -69,7 +73,7 @@ const GalleryItemStyled = styled.div`
             max-width: 100%;
         }
         h2 {
-            background-color: maroon;
+            background-color: #7868E6;
             color: white;
             padding: 10px;
             margin: 0px;

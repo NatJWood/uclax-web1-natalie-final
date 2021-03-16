@@ -27,7 +27,7 @@ export default TabbedContent;
 
 const TabbedContentStyled = styled.div`
     
-    background-color: teal;
+    background-color: #B8B5FF;
     padding: 20px;
 
     @media ${mq.desktop} {
@@ -37,8 +37,9 @@ const TabbedContentStyled = styled.div`
 
 
     .left {
-        flex: 1;
+        flex: 2;
         img {max-width: 100%;}
+        align-self: center;
     }
 
     .right {

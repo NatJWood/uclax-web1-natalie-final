@@ -9,9 +9,8 @@ import { NavLink } from 'react-router-dom';
 const Nav = () => {
     return (
         <NavStyled className='Nav'>
-            <NavLink to="/" exact>Welcome</NavLink>
-            <NavLink to="/Services">Services</NavLink>
-            <NavLink to="/Login">Login</NavLink>
+            <NavLink to="/" exact>Home</NavLink>
+            <NavLink to="/Works">Works</NavLink>
             <NavLink to="/Contact">Contact</NavLink>
         </NavStyled>
     );

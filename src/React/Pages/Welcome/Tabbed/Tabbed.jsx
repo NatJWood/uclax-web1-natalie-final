@@ -11,7 +11,7 @@ import { tabItems } from './TabbedData.js';
 
 const Tabbed = () => {
 
-    const [ chosenTab, chosenTabUpdate ] = useState(tabItems[1]);
+    const [ chosenTab, chosenTabUpdate ] = useState(tabItems[0]);
 
     const changeTabs = (tabItem) => {
         chosenTabUpdate(tabItem);

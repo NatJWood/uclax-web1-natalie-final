@@ -1,11 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Footer = () => {
+
     return (
-        <div className='Footer'>
-            FOOTER
-        </div>
+        <FooterStyled className='Footer'>
+            Copyright 2021
+        </FooterStyled>
     );
 }
 
 export default Footer;
+
+const FooterStyled = styled.div`
+    text-align: center;
+`;
